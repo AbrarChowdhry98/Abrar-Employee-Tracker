@@ -1,0 +1,36 @@
+{
+  "name": "Abrar-Employee-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbrarChowdhry98/Abrar-s-employee-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbrarChowdhry98/Abrar-s-employee-tracker/issues"
+  },
+  "homepage": "https://github.com/AbrarChowdhry98/Abrar-s-Employee-Tracker",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "chalk": "^4.1.2",
+    "console.table": "^0.10.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "inquirer": "^8.2.0",
+    "moment": "^2.29.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.13",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "jest": "^27.2.2"
+  }
+}
